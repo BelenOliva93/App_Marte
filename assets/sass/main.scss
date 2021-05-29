@@ -1,0 +1,191 @@
+@import 'lib/vars';
+@import 'lib/tipo';
+@import 'lib/reboot';
+@import 'lib/info';
+@import 'lib/data';
+@import 'lib/fontawesome/font-awesome';
+@import 'lib/fontface';
+@import 'lib/icons';
+
+
+
+
+
+/**MAIN**/
+
+body{
+  padding: 20px;
+}
+
+ul, li{
+  list-style: none;
+}
+.sun_circle{
+  width: 100px;
+  height: 100px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: #FB7D56;
+}
+.other_icons{
+  padding:30px;
+}
+.other_icons
+/**FLEX**/
+#app{
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.share_icons{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.name{
+  display: flex;
+  justify-content: center;
+}
+.sun{
+  display: flex;
+  justify-content: center;
+}
+
+.info_duration_day{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.icons_duration_day{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.sunrise{
+  display: flex;
+  align-items: end;
+}
+
+.wind{
+  display: flex;
+  justify-content: center;
+}
+
+.wind_temp{
+  display: flex;
+  justify-content: space-between;
+}
+
+.floor{
+  display: flex;
+  justify-content: center;
+}
+.floor_temp{
+  display: flex;
+  justify-content: space-between;
+}
+
+.other_icons{
+  display: flex;
+  justify-content: center;
+}
+
+.buttons{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+
+/**TIPO**/
+
+.name{
+  color: white;
+  font-size: 40px;
+  font-weight: bolder;
+  
+}
+.sun{
+  color: white;
+  font-size: 25px;
+}
+
+.wind{
+  font-weight: bolder;
+  color: #515151;
+  font-size: 30px;
+}
+
+.wind_max_temp{
+  font-weight: bolder;
+  color: #515151;
+  font-size: 17px;
+}
+.wind_max_temp div{
+  color: #FB7D56;
+}
+.wind_min_temp{
+  font-weight: bolder;
+  color: #515151;
+  font-size: 17px;
+}
+.wind_min_temp div{
+  color: #FB7D56;
+}
+
+.floor{
+  font-weight: bolder;
+  color: #515151;
+  font-size: 30px;
+}
+
+.floor_max_temp{
+  font-weight: bolder;
+  color: #515151;
+  font-size: 17px;
+}
+.floor_max_temp div{
+  color: #FB7D56;
+}
+.floor_min_temp{
+  font-weight: bolder;
+  color: #515151;
+  font-size: 17px;
+}
+
+.floor_min_temp div{
+  color: #FB7D56;
+}
+.pressure_number{
+  font-weight: bolder;
+  color: #515151;
+  font-size: 15px;
+}
+
+.irradiance_index{
+  font-weight: bolder;
+  color: #515151;
+  font-size: 15px;
+}
+
+.sunrise{
+  font-weight: bolder;
+  color: #515151;
+  font-size: 15px;
+}
+
+.sunset{
+  font-weight: bolder;
+  color: #515151;
+  font-size: 15px;
+}
+
+/**ICONS**/
+img{
+  margin: 10px;
+  height: 25px;
+}
